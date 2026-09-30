@@ -1,0 +1,30 @@
+.borda {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+  height: auto;
+  border: 2px solid #000;
+  margin: 2% auto;
+}
+
+#caixa1 {
+  position: absolute;
+  background-color: red;
+  left: 100px;
+  z-index: 1;
+}
+
+#caixa2 {
+  position: relative;
+  background-color: blue;
+}
+
+#caixa3 {
+  position: relative;
+  background-color: green;
+}
