@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Atividade</legend>
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" />
+        <br />
+
+        <label for="date">Data:</label>
+        <input type="date" name="data" id="data" />
+        <br />
+
+        <label for="esp">Especialidades:</label>
+        <select name="especialidade" id="esp">
+          <option value="">Clinica Geral</option>
+          <option value="">Cardiologia</option>
+          <option value="">Dermatologia</option>
+          <option value="">Pediatria</option>
+        </select>
+        <br />
+
+        <label for="plano">Plano de Saúde:</label>
+        <select name="plano" id="plano">
+          <option value="">Particular</option>
+          <option value="">Unimed</option>
+          <option value="">Amil</option>
+          <option value="">Bradesco Saúde</option>
+        </select>
+        <br />
+
+        <label for="pc">Primeira consulta na clínica?</label>
+        <input type="radio" name="pc" id="pc" /> Sim
+        <input type="radio" name="pc" id="pc" /> Não
+        <br />
+
+        <label for="acess">Necessidade de Acessibilidade no local:</label>
+        <br />
+        <input type="checkbox" name="rampa" id="" /> Rampa de acesso <br />
+        <input type="checkbox" name="interprete" id="" /> Intérprete de Libras
+        <br />
+        <input type="checkbox" name="caoGuia" id="" /> Espaço para Cão Guia
+        <br />
+
+        <label for="guia">Guia Médica ou Encaminhamento</label> <br />
+        <input type="file" name="guia" id="guia" accept=".pdf, .docx" />
+        <br />
+        <br />
+
+        <input type="submit" value="Confirmar agendamento" />
+      </fieldset>
+    </form>
+  </body>
+</html>
