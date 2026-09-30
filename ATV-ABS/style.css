@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #000;
+}
+
+header {
+  position: absolute;
+  width: 80%;
+  height: 20%;
+  top: 5%;
+  left: 10%;
+  text-align: center;
+  background-color: red;
+}
+
+nav {
+  position: absolute;
+  width: 80%;
+  height: 10%;
+  top: 25%;
+  left: 10%;
+  background-color: cyan;
+  text-align: center;
+}
+
+#section1 {
+  position: absolute;
+  width: 30%;
+  height: 40%;
+  top: 35%;
+  left: 10%;
+  background-color: green;
+}
+
+#section2 {
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  top: 35%;
+  left: 40%;
+  background-color: yellow;
+}
+
+footer {
+  position: absolute;
+  width: 80%;
+  height: 10%;
+  top: 75%;
+  left: 10%;
+  background-color: gray;
+}
