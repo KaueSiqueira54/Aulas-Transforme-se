@@ -1,0 +1,18 @@
+/* Estilizar somente o ID */
+#caixa1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* margin: 10px 20px; */
+  /* margin para todos os lados em específico */
+  /* margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px; */
+}
+
+#caixa2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
