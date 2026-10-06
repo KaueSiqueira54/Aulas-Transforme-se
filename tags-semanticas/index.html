@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="cabecalho">
+      <h1>Blog do Siqueira</h1>
+
+      <!-- Navbar - NAV -->
+      <nav>
+        <ul id="nav_p">
+          <!-- LINK1 -->
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <!-- LINK 2 -->
+          <li>
+            <a href="#">Artigos</a>
+          </li>
+          <!-- LINK 3 -->
+          <li>
+            <a href="#">Sobre nós</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- TAG MAIN - Agrupa o conteúdo principal da página -->
+    <main>
+      <!-- Section - Agrupar elementos do mesmo tema -->
+      <section id="sec1">
+        <h2>Últimas postagens</h2>
+
+        <!-- Article - Conteúdo independente -->
+        <article class="art">
+          <!-- Header dentro do article -->
+
+          <header>
+            <h3>Como criar o primeiro site de forma simples?</h3>
+            <p>
+              Publicado em
+              <time datetime="2026-10-02">02 de Outubro de 2026</time>
+            </p>
+          </header>
+
+          <p>Hoje aprenderemos a como criar um site usando HTML e CSS</p>
+
+          <a href="#">Saiba mais</a>
+        </article>
+
+        <!-- Segundo article -->
+
+        <article class="art">
+          <!-- Header dentro do article -->
+
+          <header>
+            <h3>Aprenda a mágica do CSS</h3>
+            <p>
+              Publicado em
+              <time datetime="2026-10-01">01 de Outubro de 2026</time>
+            </p>
+          </header>
+
+          <p>Aprenderemos a estilizar usando o CSS...</p>
+
+          <a href="#">Saiba mais</a>
+        </article>
+      </section>
+    </main>
+
+    <!-- Conteúdo lateral - relação com o tema principal -->
+    <aside>
+      <section id="sec2">
+        <h3>Sobre o Autor do BLOG</h3>
+
+        <!-- Tag Figure - Para imagens -->
+        <figure>
+          <img src="03.jpg" alt="Kaue Siqueira" />
+          <figcaption>Kauê Siqueira, Autor do Blog</figcaption>
+        </figure>
+
+        <div id="cont_details">
+          <!-- Detalhes - Perguntas com respostas -->
+          <details>
+            <summary>Quem é?</summary>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+              minus, ad consequuntur iste sit aliquam! Iusto unde cum, aut,
+              maxime delectus labore dolorem laborum deleniti dignissimos fugiat
+              non quisquam tenetur?
+            </p>
+          </details>
+
+          <details>
+            <summary>Qual é sua trajetória?</summary>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+              accusantium, expedita inventore iste sint, mollitia vel in odio
+              maiores adipisci quam eos officiis unde ratione necessitatibus?
+              Illo animi id soluta.
+            </p>
+          </details>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Footer -->
+    <footer>&copy Siqueira BLOG. Todos os Direitos Reservados</footer>
+  </body>
+</html>
