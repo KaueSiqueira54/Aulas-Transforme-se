@@ -1,0 +1,15 @@
+// Função anônima - sem nome
+// A função é armazenada em uma constante
+const multiplicar = function (x, y) {
+  return x * y;
+};
+
+// console.log(multiplicar(10, 20));
+
+// Arrow Function - função de seta
+
+const somar = (a, b) => {
+  return a + b;
+};
+
+console.log(somar(10, 20));
